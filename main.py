@@ -4,7 +4,7 @@ from telegram import Update, ForceReply
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Your bot's token (use environment variable for security)
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_BOT_TOKEN = os.getenv('7058724141:AAGxes7Qhb8JMcyNXlT_2vhjtQN3nf3V-OI')
 
 user_data = {}
 
